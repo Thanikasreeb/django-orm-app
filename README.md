@@ -29,7 +29,7 @@ Create a report about your project in readme.md file and upload the django.orm.a
 from django.db import models
 
 from django.contrib import admin
-
+```
 players(models.Model):
 name=models.Charfield(max_length=100)
 age=models.IntegerField()
@@ -39,7 +39,7 @@ runs=models.runs()
 players(admin.ModelAdmin):
 
 list_display=('name,'age','strikerate','runs')
-
+```
 ## OUTPUT :
 
 ![](/djan.png)
